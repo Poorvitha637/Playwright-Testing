@@ -1,0 +1,28 @@
+{
+  "name": "website-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:broken-links": "playwright test tests/brokenLinks",
+    "test:headed": "playwright test tests/brokenLinks --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.9.0",
+    "axios": "^1.17.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "fast-xml-parser": "^5.8.0",
+    "p-limit": "^7.3.0"
+  }
+}

@@ -1,0 +1,15 @@
+# Environment configuration (use .env.example as template)
+.env
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Generated broken link reports
+/reports/*.json
+/reports/*.html
+/reports/*.log
